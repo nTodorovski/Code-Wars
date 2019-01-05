@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Directions Reduction</title>
+</head>
+<body>
+    <p>
+        Once upon a time, on a way through the old wild west,…
+        <br>
+        … a man was given directions to go from one point to another. The directions were "NORTH", "SOUTH", "WEST", "EAST". Clearly "NORTH" and "SOUTH" are opposite, "WEST" and "EAST" too. Going to one direction and coming back the opposite direction is a needless effort. Since this is the wild west, with dreadfull weather and not much water, it's important to save yourself some energy, otherwise you might die of thirst!
+        <br>
+        How I crossed the desert the smart way.
+        <br>
+        The directions given to the man are, for example, the following:
+        <br>
+        ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"].
+        <br>
+        or
+        <br>
+        { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
+        <br>
+        or (haskell)
+        <br>
+        [North, South, South, East, West, North, West]
+        <br>
+        You can immediatly see that going "NORTH" and then "SOUTH" is not reasonable, better stay to the same place! So the task is to give to the man a simplified version of the plan. A better plan in this case is simply:
+        <br>
+        ["WEST"]
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
